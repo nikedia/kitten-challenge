@@ -1,4 +1,4 @@
-# **Kitty Challenge**
+# **Kitten Challenge**
 
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
@@ -29,4 +29,4 @@ El reto consiste crear una página web donde se muestre un paisaje y un gatito d
 * VISUAL STUDIO CODE.
 
 ## Resultado:
-[Resultado del Proyecto.]( https://nikedia.github.io/challenge-twitter/.)
+[Resultado del Proyecto.]( https://nikedia.github.io/kitten-challenge/)
