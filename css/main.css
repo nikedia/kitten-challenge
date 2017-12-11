@@ -1,0 +1,128 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Aspects
+
+#image {
+    position: relative;
+    box-sizing: border-box;
+} */
+
+
+/* Small size style (Phones) */
+
+body {
+    /* background: red; */
+    background-image: url(../assets/images/dawn.png);
+    background-repeat: no-repeat;
+    /* background-position: center top; */
+    /* background-attachment: fixed; */
+    background-position: 100% top;
+    background-size: cover 100%;
+    height: 100vh;
+
+}
+
+/* #image {
+    background-image: url(../assets/images/kitten-small.png);
+} */
+
+.small-kitty {
+    display: block;
+    max-width: 768px;
+    width: 50%;
+
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+}
+
+.medium-kitty, .large-kitty {
+    display: none;
+}
+
+/* Medium size style (Tablets) */
+
+@media screen and (min-width: 768px) {
+    body {
+        /* background: green; */
+        background-image: url(../assets/images/sunny-day.jpg);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        background-size: cover;
+        height: 100vh;    
+    }
+
+    /* #image {
+        background-image: url(../assets/images/kitten-small.png);
+    } */
+
+    .medium-kitty {
+        display: block;
+        max-width: 992px;
+        width: 50%;
+        /* width: auto; */
+
+        position: absolute;
+        bottom: 5%;
+        left: 25%;
+    }
+
+    .small-kitty, .large-kitty {
+        display: none;
+    }
+}
+
+/* Large size style (Laptops & Desktops)*/
+
+@media screen and (min-width: 992px) {
+    body {
+        /* background: yellow; */
+        background-image: url(../assets/images/night.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /* #image {
+        background-image: url(../assets/images/kitten-small.png);
+    } */
+
+    .large-kitty {
+        display: block;
+        max-width: 1200px;
+        width: 50%;
+
+        position: absolute;
+        bottom: 15%;
+        left: 25%;
+    }
+
+    .small-kitty, .medium-kitty {
+        display: none;
+    }
+
+}
+
+
+/* SECTION */
+/* 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row::before, .row::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* (100/12)*num-col */
